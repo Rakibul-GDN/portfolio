@@ -1,0 +1,258 @@
+{
+  "name": "Rakibul Hasan",
+  "initials": "RH",
+  "url": "https://rakibulhasan.com",
+  "location": "Dhaka, Bangladesh",
+  "locationLink": "https://www.google.com/maps/place/dhaka",
+  "description": "Software Engineer specializing in modern web technologies. Passionate about creating efficient and user-friendly applications with React, NextJS, and TypeScript.",
+  "summary": "I'm a dedicated software engineer with over 3 years of professional experience in developing web applications using React, NextJS, TypeScript, and NodeJS. I specialize in creating modern, responsive user interfaces and have expertise in various UI libraries like Tailwind CSS, Material UI, and ShadCN. In my current role as a Front-End Developer at Golden Info Systems Ltd, I've worked on several innovative projects including AI-powered chatbots, social commerce platforms, and admin panels. My experience spans both frontend and backend development, with proficiency in technologies like React, NestJS, Prisma, and Redux Toolkit.",
+  "avatarUrl": "/me.png",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "ReactJS",
+    "NextJS",
+    "NodeJS",
+    "NestJS",
+    "HTML/CSS",
+    "Tailwind CSS",
+    "Material UI",
+    "Redux Toolkit",
+    "React Query",
+    "Zustand"
+  ],
+  "navbar": [
+    {
+      "href": "/",
+      "icon": "HomeIcon",
+      "label": "Home"
+    },
+    {
+      "href": "/blog",
+      "icon": "NotebookIcon",
+      "label": "Blog"
+    }
+  ],
+  "contact": {
+    "email": "rhasan.diu.cse@gmail.com",
+    "tel": "+8801920992221",
+    "social": {
+      "GitHub": {
+        "name": "GitHub",
+        "url": "https://github.com/rakibulhasan",
+        "icon": "github",
+        "navbar": true
+      },
+      "LinkedIn": {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/rakibul-hasan-922708155",
+        "icon": "linkedin",
+        "navbar": true
+      },
+      "email": {
+        "name": "Email",
+        "url": "mailto:rhasan.diu.cse@gmail.com",
+        "icon": "email",
+        "navbar": true
+      }
+    }
+  },
+  "work": [
+    {
+      "company": "Golden Info Systems Ltd",
+      "href": "https://goldeninfosystems.com",
+      "badges": [],
+      "location": "Dhaka, Bangladesh",
+      "title": "Front-End Developer",
+      "logoUrl": "/gdn.webp",
+      "start": "March 2022",
+      "end": "Present",
+      "description": "Developed a fully functional chat widget deployable via a JS CDN link. Integrated an LLM model trained with store-specific data for seamless user interaction. Implemented a real-time fallback mechanism for live human agent support. Designed admin panels for complete customization, including bot name, color scheme, and more. Built interactive dashboards to monitor AI usage and user engagement. Integrated Kinde Auth for secure authentication and authorization. Implemented role-based access control and modular UI components."
+    },
+    {
+      "company": "Octaglory Ltd",
+      "href": "https://octaglory.com",
+      "badges": [],
+      "location": "Dhaka, Bangladesh",
+      "title": "Jr. Software Engineer",
+      "logoUrl": "/octaglory.ico",
+      "start": "July 2021",
+      "end": "December 2021",
+      "description": "Enhanced UI/UX for SaaS-based ERP system using ReactJS. Refactored existing components and created Figma prototypes. Collaborated with backend developers to optimize API integration and improved application performance and responsiveness."
+    }
+  ],
+  "education": [
+    {
+      "school": "Daffodil International University",
+      "href": "https://daffodilvarsity.edu.bd",
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "logoUrl": "/diu.png",
+      "start": "January 2017",
+      "end": "December 2020",
+      "description": "CGPA: 3.86 out of 4.00",
+      "badges": ["Dean's List", "Graduated with Honors"]
+    },
+    {
+      "school": "Savar Model College",
+      "href": "https://savarcollege.edu.bd",
+      "degree": "Higher Secondary School Certificate (HSC)",
+      "logoUrl": "/smc.jpg",
+      "start": "2014",
+      "end": "2016",
+      "description": "GPA: 5.00 out of 5.00",
+      "badges": ["Academic Excellence"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Chatbot Widget",
+      "href": "https://goldeninfosystems.com/projects/ai-chatbot",
+      "dates": "March 2022 - Present",
+      "active": true,
+      "description": "Developed a fully functional chat widget deployable via a JS CDN link. Integrated an LLM model trained with store-specific data for seamless user interaction. Implemented a real-time fallback mechanism for live human agent support and designed an admin panel for complete customization.",
+      "technologies": [
+        "TypeScript",
+        "ReactJS",
+        "CSS Module",
+        "React Query",
+        "Zustand"
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "https://goldeninfosystems.com/projects/ai-chatbot",
+          "icon": "globe"
+        }
+      ],
+      "logoUrl": "/ai-chatbot-logo.png",
+      "image": "",
+      "video": ""
+    },
+    {
+      "title": "AI Chatbot Admin Panel",
+      "href": "https://goldeninfosystems.com/projects/ai-chatbot-admin",
+      "dates": "March 2022 - Present",
+      "active": true,
+      "description": "Built interactive dashboards to monitor AI usage and user engagement. Integrated Kinde Auth for secure authentication and authorization. Implemented role-based access control and modular UI components. Enabled real-time chat handling and widget customization features.",
+      "technologies": [
+        "ReactJS",
+        "TypeScript",
+        "ShadCN",
+        "React Hook Form",
+        "React Query",
+        "Zustand"
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "https://goldeninfosystems.com/projects/ai-chatbot-admin",
+          "icon": "globe"
+        }
+      ],
+      "logoUrl": "/ai-chatbot-admin-logo.png",
+      "image": "",
+      "video": ""
+    },
+    {
+      "title": "Ecomilli - Social Commerce Platform",
+      "href": "https://ecomilli.com",
+      "dates": "2022 - 2023",
+      "active": true,
+      "description": "Developed a social commerce platform combining marketplace and community interaction. Implemented backend features for social interactions including likes, comments, and shares. Integrated real-time chat functionality using socket connections.",
+      "technologies": [
+        "ReactJS",
+        "NestJS",
+        "Prisma",
+        "TypeScript",
+        "Material UI",
+        "React Hook Form",
+        "React Query",
+        "Zustand"
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "https://ecomilli.com",
+          "icon": "globe"
+        }
+      ],
+      "logoUrl": "/ecomilli-logo.png",
+      "image": "",
+      "video": ""
+    },
+    {
+      "title": "SKF QR - Pharmaceutical Verification System",
+      "href": "https://skfqr.com",
+      "dates": "2022 - 2023",
+      "active": true,
+      "description": "Created dynamic QR code pages for pharmaceuticals with product verification. Built product detail pages that display verified information and developed an admin panel for medicine management and QR tracking.",
+      "technologies": [
+        "ReactJS",
+        "NestJS",
+        "TypeScript",
+        "Prisma",
+        "Material UI",
+        "Zustand"
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "https://skfqr.com",
+          "icon": "globe"
+        }
+      ],
+      "logoUrl": "/skf-qr-logo.png",
+      "image": "",
+      "video": ""
+    },
+    {
+      "title": "HRMS Software",
+      "href": "https://goldeninfosystems.com/hrms",
+      "dates": "2022 - 2023",
+      "active": true,
+      "description": "Developed modules for attendance tracking, payroll, leave, and performance management. Implemented role-based dashboards with fine-grained permissions. Designed intuitive workflows and integrated export features to generate reports in PDF and Excel formats.",
+      "technologies": [
+        "ReactJS",
+        "JavaScript",
+        "Material UI",
+        "React Hook Form",
+        "React Query",
+        "Context API"
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "https://goldeninfosystems.com/hrms",
+          "icon": "globe"
+        }
+      ],
+      "logoUrl": "/hrms-logo.png",
+      "image": "",
+      "video": ""
+    },
+    {
+      "title": "HealthHouse (Middleware)",
+      "href": "https://goldeninfosystems.com/healthhouse",
+      "dates": "2021 - 2022",
+      "active": false,
+      "description": "Developed a middleware web app to bridge data exchange between two services. Integrated Auth0 for secure user management and authentication. Processed and cleaned large data payloads for accurate frontend representation.",
+      "technologies": [
+        "ReactJS",
+        "JavaScript",
+        "Material UI",
+        "Context API"
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "https://goldeninfosystems.com/healthhouse",
+          "icon": "globe"
+        }
+      ],
+      "logoUrl": "/healthhouse-logo.png",
+      "image": "",
+      "video": ""
+    }
+  ],
+  "hackathons": []
+}

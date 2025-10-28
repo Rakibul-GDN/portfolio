@@ -1,0 +1,60 @@
+Software Engineer
+Rakibul Hasan
+  rhasan.diu.cse@gmail.com
+  +8801920992221
+  linkedin.com/in/rakibul-hasan-922708155
+  Dhaka, Bangladesh
+  SKILLS
+Programming Language Javascript, Typescript, HTML
+Frameworks ReactJS, NextJS, NodeJS, NestJS
+UI / Component Libraries Tailwind CSS, Bootstrap, Material UI, Ant Design, Radix UI and ShadCN
+Other Packages Redux Toolkit, Zustand, React Query, Jotai, Axios, Framer Motion, Husky, Jest
+Tools Git, Trello
+Soft Skills Effective Communication, Critical and Creative Thinking, Willingness to learn
+  PROFESSIONAL EXPERIENCE
+Front-End Developer | Golden Info Systems Ltd, Dhaka, Bangladesh March 2022 – Present
+Project : AI Chatbot Widget (Ongoing)
+∠ Developed a fully functional chat widget deployable via a JS CDN link.
+∠ Integrated an LLM model trained with store-specific data for seamless user interaction.
+∠ Implemented a real-time fallback mechanism for live human agent support.
+∠ Designed an admin panel for complete customization, including bot name, color scheme, and more.
+Tech Stack : Typescript ReactJS CSS Module React Query Zustand
+Project : AI Chatbot Admin Panel (Ongoing)
+∠ Built interactive dashboards to monitor AI usage and user engagement.
+∠ Integrated Kinde Auth for secure authentication and authorization.
+∠ Implemented role-based access control and modular UI components.
+∠ Enabled real-time chat handling and widget customization features.
+Tech Stack : ReactJS Typescript ShadCN React Hook Form React Query Zustand
+Project : Ecomilli (Frontend + Backend)
+∠ Developed a social commerce platform combining marketplace and community interaction.
+∠ Implemented backend features for social interactions including likes, comments, and shares.
+∠ Integrated real-time chat functionality using socket connections.
+Tech Stack : ReactJS NestJS Prisma Typescript Material UI React Hook Form React Query Zustand
+Project : SKF QR (Frontend + Backend)
+∠ Created dynamic QR code pages for pharmaceuticals with product verification.
+∠ Built product detail pages that display verified information.
+∠ Developed an admin panel for medicine management and QR tracking.
+Tech Stack : ReactJS NestJS Typescript Prisma Material UI Zustand
+Project : HRMS Software
+∠ Developed modules for attendance tracking, payroll, leave, and performance management.
+∠ Implemented role-based dashboards with fine-grained permissions.
+∠ Designed and built intuitive leave management and attendance workflows.
+∠ Integrated export features to generate reports in PDF and Excel formats.
+Tech Stack : ReactJS Javascript Material UI React Hook Form React Query Context API
+Project : HealthHouse (Middleware)
+∠ Developed a middleware web app to bridge data exchange between two services.
+∠ Integrated Auth0 for secure user management and authentication.
+∠ Processed and cleaned large data payloads for accurate frontend representation.
+Tech Stack : ReactJS Javascript Material UI Context API
+Jr. Software Engineer | Octaglory Ltd, Dhaka, Bangladesh July 2021 – December 2021
+Project : Octaglory ERP
+∠ Enhanced the UI/UX of a SaaS-based ERP system.
+∠ Refactored existing UI components and created Figma prototypes.
+∠ Collaborated with backend developers to align UI with API responses.
+∠ Improved overall application performance and responsiveness.
+Tech Stack : ReactJS HTML CSS Figma Webpack
+  EDUCATION
+January 2017 B.Sc in Computer Science and Engineering, Daffodil International University,
+December 2020 CGPA : 3.86 out of 4.00
+2014 Higher Secondary School Certificate, Savar Model College,
+2016 GPA : 5.00 out of 5.00
