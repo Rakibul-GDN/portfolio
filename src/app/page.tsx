@@ -4,6 +4,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { MorphingText } from "@/components/ui/morphing-text";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -15,18 +16,33 @@ export default function Page() {
         <main className="flex flex-col min-h-[100dvh] space-y-10">
             <section id="hero">
                 <div className="mx-auto w-full max-w-2xl space-y-8">
-                    <div className="gap-2 flex justify-between">
+                    <div className="gap-2 flex flex-col-reverse">
                         <div className="flex-col flex flex-1 space-y-1.5">
+                            <MorphingText
+                                className="text-start"
+                                texts={[
+                                    "Hello,", // English
+                                    "হ্যালো,", // Bengali
+                                    "Hola,", // Spanish
+                                    "你好,", // Chinese (Mandarin)
+                                    "नमस्ते,", // Hindi
+                                    "مرحبا,", // Arabic
+                                    "Bonjour,", // French
+                                    "Привет,", // Russian
+                                    "Olá,", // Portuguese
+                                ]}
+                            />
+
                             <BlurFadeText
                                 delay={BLUR_FADE_DELAY}
-                                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                                className="text-2xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none"
                                 yOffset={8}
-                                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                                text={`I'm ${DATA.name} 👋`}
                             />
                             <BlurFadeText className="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY} text={DATA.description} />
                         </div>
                         <BlurFade delay={BLUR_FADE_DELAY}>
-                            <Avatar className="size-28 border">
+                            <Avatar className="size-32 border">
                                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                                 <AvatarFallback>{DATA.initials}</AvatarFallback>
                             </Avatar>
