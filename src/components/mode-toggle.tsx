@@ -6,22 +6,25 @@ import { useTheme } from "next-themes";
 import { forwardRef } from "react";
 
 export const ModeToggle = forwardRef<HTMLButtonElement, {}>((props, ref) => {
-  const { theme, setTheme } = useTheme();
+    const { theme, setTheme } = useTheme();
 
-  return (
-    <Button
-      ref={ref}
-      variant="ghost"
-      type="button"
-      size="icon"
-      className="px-2"
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      {...props}
-    >
-      <SunIcon className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />
-      <MoonIcon className="hidden h-[1.2rem] w-[1.2rem] text-neutral-800 dark:block dark:text-neutral-200" />
-    </Button>
-  );
+    return (
+        <Button
+            ref={ref}
+            variant="ghost"
+            type="button"
+            size="icon"
+            className="px-2"
+            onClick={() => {
+                console.log("Change ho jaa!!");
+                setTheme(theme === "dark" ? "light" : "dark");
+            }}
+            {...props}
+        >
+            <SunIcon className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />
+            <MoonIcon className="hidden h-[1.2rem] w-[1.2rem] text-neutral-800 dark:block dark:text-neutral-200" />
+        </Button>
+    );
 });
 
 ModeToggle.displayName = "ModeToggle";

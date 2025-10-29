@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 
 export default function SmoothFollower() {
+    const [mounted, setMounted] = useState(false);
     const mousePosition = useRef({ x: 0, y: 0 });
 
     const dotPosition = useRef({ x: 0, y: 0 });
@@ -15,6 +16,8 @@ export default function SmoothFollower() {
     const BORDER_DOT_SMOOTHNESS = 0.1;
 
     useEffect(() => {
+        setMounted(true); // Mark as mounted after first render
+        
         const handleMouseMove = (e: MouseEvent) => {
             mousePosition.current = { x: e.clientX, y: e.clientY };
         };
@@ -67,7 +70,11 @@ export default function SmoothFollower() {
         };
     }, []);
 
-    if (typeof window === "undefined") return null;
+    // Don't render during SSR to prevent hydration mismatch
+    if (!mounted) {
+        // Render a static placeholder to prevent hydration mismatch
+        return <div className="pointer-events-none fixed inset-0 z-[9999] hidden lg:block" />;
+    }
 
     return (
         <div className="pointer-events-none fixed inset-0 z-[9999] hidden lg:block">
