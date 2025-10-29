@@ -70,7 +70,7 @@ export default function SmoothFollower() {
     if (typeof window === "undefined") return null;
 
     return (
-        <div className="pointer-events-none fixed inset-0 z-[9999]">
+        <div className="pointer-events-none fixed inset-0 z-[9999] hidden lg:block">
             <div
                 className="absolute rounded-full dark:bg-white bg-black "
                 style={{
