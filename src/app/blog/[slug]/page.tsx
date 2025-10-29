@@ -25,11 +25,12 @@ export async function generateMetadata({
     summary: description,
     image,
   } = post.metadata;
-  let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
+  let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${encodeURIComponent(title)}`;
 
   return {
     title,
     description,
+    keywords: [title, ...DATA.skills, "blog", "article", "development"],
     openGraph: {
       title,
       description,
@@ -39,15 +40,22 @@ export async function generateMetadata({
       images: [
         {
           url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
         },
       ],
+      authors: [DATA.name],
+      siteName: DATA.name,
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
       images: [ogImage],
+      site: `@${DATA.name.replace(/\s+/g, '')}`,
     },
+    authors: [{ name: DATA.name }],
   };
 }
 
